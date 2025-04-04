@@ -1,3 +1,6 @@
 body {
+  margin: 0;
+
   background-color: hsl(30, 38%, 92%);
+  font-size: 14px;
 }
