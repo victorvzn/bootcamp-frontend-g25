@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Intro</title>
+  <style>
+    /* selector por elemento */
+    h1 {
+      color: orangered;
+      background-color: yellow;
+
+      border: 10px solid red;
+      padding: 15px;
+      margin: 15px;
+
+      /* box-sizing: content-box;  */ /* por defecto, no calcula el ancho en base al contenido, padding, borde y margen */
+      box-sizing: border-box; /* hace el calculo automático de la caja incluyendo el contenido, padding, borde y margen */
+
+      width: 150px;
+    }
+    /* selector por id */
+    #parrafo {
+      background-color: blueviolet;
+    }
+    /* selector por clase */
+    .otro_parrafo {
+      background-color: greenyellow;
+    }
+    .nuevo {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS Intro</h1>
+  <p id="parrafo">hola soy un párrafo</p>
+
+  <p class="otro_parrafo">hola soy un párrafo</p>
+  <p class="otro_parrafo nuevo">hola soy un párrafo</p>
+  <p class="otro_parrafo">hola soy un párrafo</p>
+  <p class="otro_parrafo nuevo">hola soy un párrafo</p>
+  <p class="otro_parrafo nuevo">hola soy un párrafo</p>
+  <p class="otro_parrafo">hola soy un párrafo</p>
+</body>
+</html>
