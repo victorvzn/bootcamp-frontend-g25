@@ -10,4 +10,36 @@ body {
 
   background-color: hsl(30, 38%, 92%);
   font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+
+  display: flex; /* Flexbox */
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh; /* vh = viewport height */
+}
+
+main {
+  border: 3px solid red;
+  
+  width: 650px;
+  height: 400px;
+
+  display: flex; /* Flexbox */
+}
+
+.photo {
+  background-color: blue;
+
+  width: 350px;
+
+  background-image: url(./images/image-product-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  background-color: green;
+
+  width: 300px;
 }
